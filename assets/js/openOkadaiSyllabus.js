@@ -20,6 +20,7 @@ function openOkadaiSyllabus(num1){
     var url = make_url(classno, num1);
     console.log(url);
     window.open(url);
+    document.classno-form.reset()
     return false;
 }
 
