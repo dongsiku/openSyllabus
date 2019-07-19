@@ -4,7 +4,7 @@ You can open the web syllabi of Okayama university directly with the class numbe
 
 ### Page Link
 
-[https://sik103.github.io/openSyllabus/](https://sik103.github.io/openSyllabus/)
+[https://dongsiku.github.io/openSyllabus/](https://dongsiku.github.io/openSyllabus/)
 
 ### Usage
 
