@@ -54,13 +54,13 @@
             </dev>
         </div>
         -->
-        <div class="row">
-            <div class="col-12 col-lg-8 mx-auto mt-4">
+        <div class="row mt-4">
+            <div class="col-12 col-lg-8 mx-auto">
                 <div class="alert alert-success">
                     <h4 class="alert-heading">お知らせ Notification</h4>
                     <p>
                         新しいシラバスに対応しました．<br>
-                        This application became able to be used for new Okadai syllabus. 
+                        This application became able to be used for new Okadai syllabus.
                     </p>
                 </div>
             </div>
@@ -75,17 +75,21 @@
 
         <div class="row mt-3">
             <div class="mx-auto">
-                <form class="form-inline">
-                    <div class="form-group mb-2 mx-1">
-                        <input type="tel" class="form-control" id="classNumberForm" placeholder="Class Number">
+                <form>
+                    <div class="form-row">
+                        <div class="col-5 offset-1">
+                            <input type="tel" class="form-control" id="classNumberForm" placeholder="Class Number">
+                        </div>
+                        <button type="button" id="openSyllabusBtn" class="btn btn-primary col-5">
+                            Open Syllabus
+                        </button>
                     </div>
-                    <button type="button" id="openSyllabusBtn" class="btn btn-primary mb-2">Open the Syllabus</button>
                 </form>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-8 mx-auto text-center mt-3">
+        <div class="row mt-3">
+            <div class="col-8 mx-auto text-center">
                 <div class="alert" id="errorMessageBox">
                     <h4 id="errorMessageHeading" class="alert-heading">Well done!</h4>
                     <p id="errorMessageText">Error Message</p>
@@ -93,14 +97,12 @@
             </div>
         </div>
 
-        <div class="row bg-warning">
+        <div class="row mt-3">
             <div class="fixed-bottom">
-                <div class="col-12 text-center mt-3">
+                <div class="col-12 text-center">
                     <p class="copyright">&copy;2020 Dongsik</p>
                 </div>
             </div>
-
-
         </div>
     </div>
     <script type="text/javascript" src="js/open_okadai_syllabus.js"></script>
