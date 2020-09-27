@@ -1,0 +1,23 @@
+{
+  "name": "opensyllabus",
+  "version": "1.0.0",
+  "description": "You can open the web syllabi of Okayama university directly with the class number with this web application. In other words, it simlifies the access to the web syllabi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongsiku/openSyllabus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongsiku/openSyllabus/issues"
+  },
+  "homepage": "https://github.com/dongsiku/openSyllabus#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
